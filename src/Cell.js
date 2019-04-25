@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Cell extends Component {
-    render() {
-        return (
-            <div className="cell" onClick={()=> this.props.handleClick(this.props.value)}>
-                {this.props.value}      
-            </div>
-        );
-    }
-}
+const Cell = (props) => (
+    <div className="cell">
+        {props.value}
+    </div>
+)
 
-export default Cell;        
+export default Cell;

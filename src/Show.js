@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './App.css';
 
-class Show extends Component {
-    render() {
-        return (
-            <div className='show'>
-                {this.props.showValue}
-            </div>
-        );
-    }
-}
+const Show = (props) => (
+    <div className='show'>
+        
+    </div>
+)
 
 export default Show;
